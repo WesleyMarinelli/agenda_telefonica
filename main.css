@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #161515;
+    color: rgb(205, 243, 243);
+    padding-top: 100px;  /* espacamento no topo */
+}
+
+header{
+    display: flex;  /*ficar um ao lado do outro */
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+header h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.container {   /* deixando centrazilado na tela*/
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+form {
+    display: flex;
+    max-width: 640px;
+    width: 100%;
+    justify-content: space-between;  /*espaco entre os campos de informacoes */
+    margin-bottom: 56px;  /*espaco na parte inferior do campo nome da atividade*/
+}
+
+form input { /*estilizando os campos de informacoes*/
+    font-size: 20px;
+    background-color:rgb(223, 245, 245);
+    border: none;
+    padding: 8px;
+    border-radius: 15px;
+    margin-bottom: 100px;
+}
+
+form button { /* estilizando o botao*/
+    background-color:rgb(130, 231, 231);        
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 12px;
+    font-size: 16px;
+    margin-bottom: 100px;
+}
+
+form button:hover {
+    background-color:rgb(223, 245, 245);    
+}
+
+table {  /*para a tabela ocupar todo o espaco no container*/
+    width: 100%;
+}
+
+table th {
+    border-bottom: 2px solid #f7f3f3; /*linha na parte inferior do campo*/
+    padding: 16px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+table td { /* alinhando os dados na vertical*/ 
+    text-align: center;
+    padding: 16px 0;
+    font-size: 18px;
+    border-bottom: 1px solid rgba(175, 173, 173, 0.1);
+}
+
+
+
